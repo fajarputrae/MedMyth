@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MedMyths.iml" filepath="$PROJECT_DIR$/MedMyths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MedMyth.iml" filepath="$PROJECT_DIR$/MedMyth.iml" />
+      <module fileurl="file://D:\UNPAD\MedMyth\MedMyths.iml" filepath="D:\UNPAD\MedMyth\MedMyths.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\UNPAD\MedMyth\app\app.iml" filepath="D:\UNPAD\MedMyth\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/greenDaoGenerator/greenDaoGenerator.iml" filepath="$PROJECT_DIR$/greenDaoGenerator/greenDaoGenerator.iml" />
+      <module fileurl="file://D:\UNPAD\MedMyth\greenDaoGenerator\greenDaoGenerator.iml" filepath="D:\UNPAD\MedMyth\greenDaoGenerator\greenDaoGenerator.iml" />
     </modules>
   </component>
 </project>

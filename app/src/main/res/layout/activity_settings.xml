@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asuspc.medmyths.SettingsActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/backgroundsettings" />
+
+    <ImageView
+        android:id="@+id/kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_chevron_left_black_24dp" />
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Vega Savera"
+        android:textStyle="bold"
+        android:layout_marginTop="200dp"
+        android:textColor="#5ac2bb"
+        android:textSize="28sp"
+        tools:ignore="NotSibling" />
+
+    <TextView
+        android:id="@+id/txtSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Settings"
+        android:layout_below="@id/txtNama"
+        android:textColor="#5ac2bb"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:id="@+id/layMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtSettings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txtMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/seekMusic"
+            android:text="Music"
+            android:textColor="#5ac2bb"
+            android:textSize="21sp" />
+
+        <SeekBar
+            android:id="@+id/seekMusic"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:paddingHorizontal="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layMusic"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:text="Logout"
+        android:textColor="#FFF"
+        android:background="#ffd05c"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="COPYRIGHT © 2018, BKT"
+        />
+
+</RelativeLayout>

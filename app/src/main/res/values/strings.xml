@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Med Myths</string>
+    <string name="facebook_app_id">401926183605978</string>
+    <string name="fb_login_protocol_scheme">fb401926183605978</string>
+    <string name="title_activity_login">Login</string>
+    <string name="back_again">Press Back again to Exit</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="alert">Alert</string>
+    <string name="login_failed">Please fill username and password to continue</string>
+    <string name="ok">OK</string>
+</resources>
